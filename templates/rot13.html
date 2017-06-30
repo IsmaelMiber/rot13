@@ -1,0 +1,8 @@
+{% extends "base.html" %} <!-- This tell our page to be part of base.html -->
+{% block content %}
+<h2></h2>
+<form method="post">
+    <textarea name="text">{{enc}}</textarea>
+    <input type="submit">
+</form>
+{% endblock%}
